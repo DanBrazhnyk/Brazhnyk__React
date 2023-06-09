@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Brazhnyk__React/static/css/main.754ebb54.css",
-    "main.js": "/Brazhnyk__React/static/js/main.f930da30.js",
+    "main.css": "/Brazhnyk__React/static/css/main.4078acfd.css",
+    "main.js": "/Brazhnyk__React/static/js/main.f0475f22.js",
     "index.html": "/Brazhnyk__React/index.html",
-    "main.754ebb54.css.map": "/Brazhnyk__React/static/css/main.754ebb54.css.map",
-    "main.f930da30.js.map": "/Brazhnyk__React/static/js/main.f930da30.js.map"
+    "main.4078acfd.css.map": "/Brazhnyk__React/static/css/main.4078acfd.css.map",
+    "main.f0475f22.js.map": "/Brazhnyk__React/static/js/main.f0475f22.js.map"
   },
   "entrypoints": [
-    "static/css/main.754ebb54.css",
-    "static/js/main.f930da30.js"
+    "static/css/main.4078acfd.css",
+    "static/js/main.f0475f22.js"
   ]
 }

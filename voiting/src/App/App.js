@@ -7,7 +7,8 @@ import SentimentVeryDissatisfied from "../Icons/SentimentVeryDissatisfiedIcon";
 import InsertEmoticon from "../Icons/InsertEmoticonIcon";
 import { findMax } from "../functions/findMax";
 import { renderSwitch } from "../functions/renderSwitch";
-import styles from "./App.module.css"
+import Button from "@mui/material/Button";
+import styles from "./App.module.css";
 
 class HomeIcon extends Component {
   state = {
@@ -17,8 +18,9 @@ class HomeIcon extends Component {
       thumbUp: 0,
       MoodBad: 0,
       SentimentVeryDissatisfied: 0,
-      InsertEmoticon: 0
+      InsertEmoticon: 0,
     },
+    showSwitch: false,
   };
   incrementHandler = (icon) => {
     const { iconCounts } = this.state;
@@ -61,8 +63,22 @@ class HomeIcon extends Component {
           />
         </div>
         <div className={styles.containerSwitch}>
-          {renderSwitch(maxIcon)}
+          <Button
+            variant="outlined"
+            onClick={() => this.setState({ showSwitch: true })}
+          >
+            Show most click elem
+          </Button>
+          <Button
+            variant="outlined"
+            onClick={() => this.setState({ showSwitch: false })}
+          >
+            Hide the elem
+          </Button>
         </div>
+        {this.state.showSwitch && (
+          <div className={styles.containerSwitch}>{renderSwitch(maxIcon)}</div>
+        )}
       </div>
     );
   }

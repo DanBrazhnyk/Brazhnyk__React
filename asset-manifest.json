@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Brazhnyk__React/static/css/main.1a8d8115.css",
+    "main.js": "/Brazhnyk__React/static/js/main.3ff58d0a.js",
+    "index.html": "/Brazhnyk__React/index.html",
+    "main.1a8d8115.css.map": "/Brazhnyk__React/static/css/main.1a8d8115.css.map",
+    "main.3ff58d0a.js.map": "/Brazhnyk__React/static/js/main.3ff58d0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a8d8115.css",
+    "static/js/main.3ff58d0a.js"
+  ]
+}

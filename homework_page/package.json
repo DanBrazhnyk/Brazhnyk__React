@@ -1,7 +1,7 @@
 {
   "name": "homework_page",
   "version": "0.1.0",
-  "homepage": "https://danbrazhnyk.github.io/Brazhnyk__React/homework_page/",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
